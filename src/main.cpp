@@ -24,10 +24,10 @@
 #include <si5351.h>
 #include <Wire.h>
 #include <U8g2lib.h>
-#include "cwtransceiver.h"
 #define ENCODER_OPTIMIZE_INTERRUPTS
 #include "Encoder.h"
 #include "Bounce.h"
+#include "quad_vfo.h"
 
 
 #define CORRECTION (13859)
